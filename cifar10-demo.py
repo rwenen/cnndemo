@@ -6,6 +6,7 @@ from keras.utils import to_categorical
 
 # 指定亂數種子
 np.random.seed(11)
+# np.random.seed(10)
 # 載入資料集
 (X_train, y_train), (X_test, y_test) = cifar10.load_data()
 # 因為是固定範圍, 所以執行正規化, 從 0-255 至 0-1
